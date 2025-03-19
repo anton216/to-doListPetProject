@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="theme-link"  rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />;
+
+</head>
+<body>
+    
+
+<section class="todolist">
+ <nav class="search">
+       <h1>TODO LIST</h1>  
+    <div class="nav-flex"> 
+     
+        <div class="select">
+            <p class="nav-p">ALL</p>
+            <button class="dropdown-button" onclick="toggleDropdown()">&or;</button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">ALL</a>
+                <a href="#">Complete</a>
+                <a href="#">Incomplete</a>
+            </div>
+        </div>
+        <button class="nav-btn"><svg width="52" height="52" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="38" height="38" rx="5" fill="#6C63FF" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.1249 8.5488C19.3387 8.91735 19.321 9.3762 19.0791 9.72705C18.3455 10.7915 17.916 12.0806 17.916 13.4733C17.916 17.1243 20.8757 20.084 24.5266 20.084C25.9194 20.084 27.2085 19.6545 28.2729 18.9208C28.6238 18.6791 29.0826 18.6613 29.4512 18.8751C29.8197 19.089 30.0319 19.4962 29.9961 19.9208C29.5191 25.567 24.7867 30 19.0178 30C12.9328 30 8 25.0672 8 18.9822C8 13.2133 12.433 8.48087 18.0792 8.00392C18.5038 7.96806 18.911 8.18024 19.1249 8.5488ZM16.1799 10.6346C12.7045 11.8157 10.2036 15.1073 10.2036 18.9822C10.2036 23.8502 14.1498 27.7964 19.0178 27.7964C22.8927 27.7964 26.1843 25.2955 27.3654 21.8202C26.4741 22.1232 25.5191 22.2875 24.5266 22.2875C19.6587 22.2875 15.7124 18.3413 15.7124 13.4733C15.7124 12.4809 15.8768 11.5258 16.1799 10.6346Z" fill="#F7F7F7" />
+          </svg></button>
+    </div> 
+</nav>
+</section>
+
+<section class="note  todolist">
+   
+</section>
+<section class="add todolist">
+    <svg class="add-svg" width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_18_253)">
+          <circle cx="29" cy="29" r="25" fill="#6C63FF" />
+        </g>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M27.5 38.8916C27.5 39.2891 27.658 39.6704 27.9393 39.9514C28.2206 40.2325 28.6022 40.3904 29 40.3904C29.3978 40.3904 29.7794 40.2325 30.0607 39.9514C30.342 39.6704 30.5 39.2891 30.5 38.8916V29.8988H39.5C39.8978 29.8988 40.2794 29.7409 40.5607 29.4598C40.842 29.1787 41 28.7975 41 28.4C41 28.0025 40.842 27.6213 40.5607 27.3402C40.2794 27.0591 39.8978 26.9012 39.5 26.9012H30.5V17.9084C30.5 17.5108 30.342 17.1296 30.0607 16.8485C29.7794 16.5675 29.3978 16.4095 29 16.4095C28.6022 16.4095 28.2206 16.5675 27.9393 16.8485C27.658 17.1296 27.5 17.5108 27.5 17.9084V26.9012H18.5C18.1022 26.9012 17.7206 27.0591 17.4393 27.3402C17.158 27.6213 17 28.0025 17 28.4C17 28.7975 17.158 29.1787 17.4393 29.4598C17.7206 29.7409 18.1022 29.8988 18.5 29.8988H27.5V38.8916Z" />
+        <defs>
+          <filter id="filter0_d_18_253" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0.423529 0 0 0 0 0.388235 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_18_253" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_18_253" result="shape" />
+          </filter>
+        </defs></svg>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
